@@ -1,5 +1,4 @@
 New-Item -Path "F:\Temp\Cache" -ItemType directory -Force | Out-Null
-$cache = "F:\Temp\Cache"
 
 $CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $CurrentUserName = $CurrentUser.split("\")[1]
@@ -31,4 +30,3 @@ foreach($array in $package)
 		}		
 	Remove-Item "F:\Temp\Cache\check.dump"
     }
-Remove-Item "F:\Temp\Cache\"
