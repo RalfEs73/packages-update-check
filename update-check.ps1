@@ -17,7 +17,7 @@ $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/
 
 foreach($array in $package)
     {
-    Write-host "Check: " $array[0] -NoNewline
+    Write-host "Check:" $array[0] -NoNewline
 	Start-BitsTransfer -Source $array[1] -Destination "F:\Temp\Cache\check.dump"
 	if((Get-FileHash "F:\Temp\Cache\check.dump").hash  -ne ($array[2]))
 		{
