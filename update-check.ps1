@@ -11,10 +11,10 @@ $package += ,@('movaviscreenrecorder', 'https://files.movavi.com/x64/MovaviScree
 $package += ,@('movavislideshowmaker', 'https://files.movavi.com/x64/MovaviSlideshowMakerSetup.exe', '4E68456FC7D36CCF035A684D427955CA9A7977B360321E8E6820ABC7028393F4')
 $package += ,@('movavivideoconverter', 'https://files.movavi.com/x64/MovaviVideoConverterSetupE.exe', '5B075B159162643A7A5548A45871F36B8C050CDDB10C0DE47EADD9338A8BE04C')
 $package += ,@('movavivideoeditorplus', 'https://cdn.movavi.com/x64/MovaviVideoEditorPlusSetupE.exe', '02941990F5177DA5DC818A0F3BC30C53F5386916BB2F06FE0E4F1922F78E4551')
-$package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomateDesktop.exe', 'DADEDFD861347937EE9BE22091FC9BF543967DCF5A89212744DC28827668006A')
+$package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomateDesktop.exe', 'BBFD5F47C6BA9CB17A96B9A4F025AE5437185297C6361272FCADE82D38B380C9')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
 $package += ,@('tiptoimanager', 'https://www.ravensburger.de/db/installer_flat/tiptoi_Manager_Installer.exe', 'C0BA379CDDB67A1BEC9867170AD42140A994FE60B4FC3F5543F379BCA2BBA49E')
-$package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPortal_Setup.exe', '88379D1C3D37504673C9D7DC3CBA5F8371DC6FEBA010230F1B7698BA47AD2C8D')
+$package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPortal_Setup.exe', '6C5B96AF1F5B0C265C1D02289F2B127D11D39105F95B3AD74E2C0A80B97EE437')
 
 foreach($array in $package)
     {
