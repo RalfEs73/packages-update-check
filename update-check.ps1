@@ -14,7 +14,7 @@ $package += ,@('movavivideoeditorplus', 'https://cdn.movavi.com/x64/MovaviVideoE
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomateDesktop.exe', 'BBFD5F47C6BA9CB17A96B9A4F025AE5437185297C6361272FCADE82D38B380C9')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
 $package += ,@('tiptoimanager', 'https://www.ravensburger.de/db/installer_flat/tiptoi_Manager_Installer.exe', 'C0BA379CDDB67A1BEC9867170AD42140A994FE60B4FC3F5543F379BCA2BBA49E')
-$package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPortal_Setup.exe', '8A872373A71B3396F68CD6BFB34F34314B9D7B63B3C3B77B73B4371B736DFF30')
+$package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPortal_Setup.exe', '05DC3B020AF83FAC46A6FEDCF5C6953A823EB9419F3CAD0E1C0F9442F97F8130')
 
 foreach($array in $package)
     {
