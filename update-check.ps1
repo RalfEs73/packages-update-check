@@ -1,4 +1,4 @@
-New-Item -Path "F:\Temp\Cache" -ItemType directory -Force | Out-Null
+New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $CurrentUserName = $CurrentUser.split("\")[1]
@@ -19,8 +19,8 @@ $package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPorta
 foreach($array in $package)
     {
     Write-host "Check:" $array[0] -NoNewline
-	Start-BitsTransfer -Source $array[1] -Destination "F:\Temp\Cache\check.dump"
-	if((Get-FileHash "F:\Temp\Cache\check.dump").hash  -ne ($array[2]))
+	Start-BitsTransfer -Source $array[1] -Destination "D:\Temp\Cache\check.dump"
+	if((Get-FileHash "D:\Temp\Cache\check.dump").hash  -ne ($array[2]))
 		{
 		Write-host " - " -NoNewline
 		Write-host "Es gibt ein Update" -Foreground Magenta
@@ -29,5 +29,5 @@ foreach($array in $package)
 		{
 		Write-host ""
 		}		
-	Remove-Item "F:\Temp\Cache\check.dump"
+	Remove-Item "D:\Temp\Cache\check.dump"
     }
