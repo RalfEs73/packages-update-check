@@ -5,7 +5,7 @@ $CurrentUserName = $CurrentUser.split("\")[1]
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '1A99F1054E51FE86416C59E5C526D69776FDABD7BB9831DBAAB8582322121C7A')
-$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'F58797B50CD12E83B589ACE9B61E1C0A565840CD27B49C553E0A2C9A699DC3F0')
+$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '05B80C44628C4F016103431DFF5B0149AE6BA866F0A4563D219954C95BD5D7F9')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('movaviscreenrecorder', 'https://files.movavi.com/x64/MovaviScreenRecorderSetupE.exe', '6A0F310D4633B7D25AE207873926294EDA13AD802A88AEBC751788B5A23302E0')
 $package += ,@('movavislideshowmaker', 'https://files.movavi.com/x64/MovaviSlideshowMakerSetup.exe', '9257574C82062730A905F95B23D785A3C41E2FB45DBBDEB8BCD043D4A9B48915')
@@ -13,8 +13,8 @@ $package += ,@('movavivideoconverter', 'https://files.movavi.com/x64/MovaviVideo
 $package += ,@('movavivideoeditorplus', 'https://cdn.movavi.com/x64/MovaviVideoEditorPlusSetupE.exe', '02941990F5177DA5DC818A0F3BC30C53F5386916BB2F06FE0E4F1922F78E4551')
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomateDesktop.exe', '367B507D4D4BD85462F9A3D64766E474AECA45A1F8452A7085E87D3C718AAF80')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
-$package += ,@('tiptoimanager', 'https://www.ravensburger.de/db/installer_flat/tiptoi_Manager_Installer.exe', 'C0BA379CDDB67A1BEC9867170AD42140A994FE60B4FC3F5543F379BCA2BBA49E')
 $package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPortal_Setup.exe', '90E216BDD1EAFF7E99DBBA610028B867DFCFADA49D73C64848499E1CFAC2A76F')
+$package += ,@('tiptoimanager', 'https://www.ravensburger.de/db/installer_flat/tiptoi_Manager_Installer.exe', 'C0BA379CDDB67A1BEC9867170AD42140A994FE60B4FC3F5543F379BCA2BBA49E')
 
 foreach($array in $package)
     {
