@@ -5,11 +5,11 @@ $CurrentUserName = $CurrentUser.split("\")[1]
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '1A99F1054E51FE86416C59E5C526D69776FDABD7BB9831DBAAB8582322121C7A')
-$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'AF9DA250D8D8D1854A519A18E5C4BC8A4A3BB0318409541336855909AA924D56')
+$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '258059B7E037B1943279A3E779B4C206C9453E8DB4B7DE952D51769BBA8430F5')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('movaviscreenrecorder', 'https://files.movavi.com/x64/MovaviScreenRecorderSetupE.exe', 'E2F75BC0C419F4667920EF53BAC82458C54E48B9C1A619FC0AF5A7339673F559')
 $package += ,@('movavislideshowmaker', 'https://files.movavi.com/x64/MovaviSlideshowMakerSetup.exe', '9257574C82062730A905F95B23D785A3C41E2FB45DBBDEB8BCD043D4A9B48915')
-$package += ,@('movavivideoconverter', 'https://files.movavi.com/x64/MovaviVideoConverterSetupE.exe', '6326E194BBB4F51353AB9CDD32C23145E6C07CA3CF98086B419638896DAF519F')
+$package += ,@('movavivideoconverter', 'https://files.movavi.com/x64/MovaviVideoConverterSetupE.exe', '27841B460FF1907E96060645F854D29FF33275E039163DD736808D8BCAFF54EE')
 $package += ,@('movavivideoeditorplus', 'https://cdn.movavi.com/x64/MovaviVideoEditorPlusSetupE.exe', '312B598DFAE9449BF52A4AE9F249AFC99C1EF837E57F1A3590C255B5523E7084')
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomateDesktop.exe', 'AFD93377657B68C4EF930E1AFD623AB2CC598C7CA3BDA2486F446AD692CD5EB9')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
