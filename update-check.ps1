@@ -5,7 +5,7 @@ $CurrentUserName = $CurrentUser.split("\")[1]
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '1A99F1054E51FE86416C59E5C526D69776FDABD7BB9831DBAAB8582322121C7A')
-$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'D319A38C5721D09E2F55A36A3B839D0836D335B002B6A895B83ACE865EF106CA')
+$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '469C21C37701A94525FE7A4B813214DD304A0E13C6FEDD211A996543A66E34B9')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('movaviscreenrecorder', 'https://files.movavi.com/x64/MovaviScreenRecorderSetupE.exe', '01225B8E0DCEF16185264F07499C7883EA5363336332EB76C5FCD45AD8F41F83')
 $package += ,@('movavislideshowmaker', 'https://files.movavi.com/x64/MovaviSlideshowMakerSetup.exe', 'FFE4DFBBF5C68E0EC66B03E485D4F4577B298C0AEA464EEDB0B89CDEA1BFB725')
