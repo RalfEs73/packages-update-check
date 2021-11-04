@@ -4,7 +4,7 @@ $CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $CurrentUserName = $CurrentUser.split("\")[1]
 
 $package = @()
-$package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '1A99F1054E51FE86416C59E5C526D69776FDABD7BB9831DBAAB8582322121C7A')
+$package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', 'E663BB9116EF2CB557657504623C0DE7C597A3B89A061DA43AE8148655664226')
 $package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '469C21C37701A94525FE7A4B813214DD304A0E13C6FEDD211A996543A66E34B9')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('movaviscreenrecorder', 'https://files.movavi.com/x64/MovaviScreenRecorderSetupE.exe', '01225B8E0DCEF16185264F07499C7883EA5363336332EB76C5FCD45AD8F41F83')
