@@ -2,7 +2,7 @@ New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', 'E663BB9116EF2CB557657504623C0DE7C597A3B89A061DA43AE8148655664226')
-$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'B6F1EAF85CD99D848D148E462D6AA41EB6165AC93245DBA71F4B6C9C3BACA865')
+$package += ,@('anystream', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'D8114A8BB0CEFCD6668E9CCB088311726C23DACF6E8F05E465CA6E955210F5C9')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('movaviscreenrecorder', 'https://files.movavi.com/x64/MovaviScreenRecorderSetupE.exe', '01225B8E0DCEF16185264F07499C7883EA5363336332EB76C5FCD45AD8F41F83')
 $package += ,@('movavislideshowmaker', 'https://files.movavi.com/x64/MovaviSlideshowMakerSetup.exe', 'FFE4DFBBF5C68E0EC66B03E485D4F4577B298C0AEA464EEDB0B89CDEA1BFB725')
