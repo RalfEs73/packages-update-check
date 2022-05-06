@@ -12,16 +12,20 @@ $package += ,@('tiptoimanager', 'https://www.ravensburger.de/db/installer_flat/t
 
 foreach($array in $package)
     {
+    $a = $array[0]
+	$dest = "D:\Temp\Cache\$a.dump"
     Write-host "Check:" $array[0] -NoNewline
-	Start-BitsTransfer -Source $array[1] -Destination "D:\Temp\Cache\check.dump"
-	if((Get-FileHash "D:\Temp\Cache\check.dump").hash  -ne ($array[2]))
+	Start-BitsTransfer -Source $array[1] -Destination $dest
+	if((Get-FileHash $dest).hash  -ne ($array[2]))
 		{
+        $hash = (Get-FileHash $dest).hash
 		Write-host " - " -NoNewline
-		Write-host "Es gibt ein Update" -Foreground Magenta
+		Write-host "Es gibt ein Update" -Foreground Magenta -NoNewline
+		Write-host $hash
 		}
 		else
 		{
 		Write-host ""
 		}		
-	Remove-Item "D:\Temp\Cache\check.dump"
+	Remove-Item $dest
     }
