@@ -20,7 +20,7 @@ foreach($array in $package)
 		{
         $hash = (Get-FileHash $dest).hash
 		Write-host " - " -NoNewline
-		Write-host "Es gibt ein Update" -Foreground Magenta -NoNewline
+		Write-host "Es gibt ein Update - " -Foreground Magenta -NoNewline
 		Write-host $hash
 		}
 		else
