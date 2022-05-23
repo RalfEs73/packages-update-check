@@ -1,8 +1,8 @@
 New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $package = @()
-$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '5540A42B0E36033481A7DADBCA7BD4A90278F53E8C730FA1D10D2A5C4D96F668')
-$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', 'BED18CDFA6799A14FF33EB13F2ADC50DAE430E6BDA395050ACB4F3A2F7010880')
+$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '09293B312CA80DAD2EC08FE9E0E5C35497EDBAAF040F8FEDFB652A3CB83B9BEF')
+$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '7D5A19EB229B3F4C9126B7900DEF25BA4F020E0DA566CC276772309AFFB0FBBF')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe', 'D782DF2BCAE28E8542F7F4853F5F2F31E1A7409AFA25FAFD9CDA1F4E4576F2AD')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
