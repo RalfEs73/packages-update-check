@@ -9,7 +9,7 @@ $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
 $package += ,@('touchportal', 'https://www.touch-portal.com/downloads/TouchPortal_Setup_release.exe', '7F99D34809B3ECC1C86DB465FC0CB5C63B41B5383423BD7927CD2146C55E2505')
 $package += ,@('droidcam', 'https://files.dev47apps.net/win/DroidCam.Setup.6.4.3.exe', '8E71EAB54503389698604D796C18A3ED9B1B7A67817A7FAD74E86FB1B52EE500')
-$package += ,@('hasleobackupsuite', 'https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe', '49C52FEEE345D6F295510059590A68E0B8081EBF371B2F579FDD3CE4809896AD')
+$package += ,@('hasleobackupsuite', 'https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe', '11EF1FA5F455366E4991A59510587CF73EE2FB2304AEECA13B51F55C199B71A4')
 $package += ,@('tiptoimanager', 'https://www.ravensburger.de/db/installer_flat/tiptoi_Manager_Installer.exe', 'C0BA379CDDB67A1BEC9867170AD42140A994FE60B4FC3F5543F379BCA2BBA49E')
 
 foreach($array in $package)
