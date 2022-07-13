@@ -2,7 +2,7 @@ New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $package = @()
 $package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'E06678056FBDACDCBDD0B6DC01B2593CC24AE42DCCDE42C20AACEDF993D5F3B0')
-$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', 'D6453165B2EEDE9ABA21B5D27979FCF0C0A79B9E6085C3A858DC3FB8523166B6')
+$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '5FA0F7A527327A86655195EACF2621345C605F09012BABD409F746BA49BBD843')
 $package += ,@('backupstartmenulayout', 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip', '6455092ABCABBA7E46BC933C1909ADBFAEDD57096D0ED0D6ED38439DAF396C81')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe', '03C25E4AF1ED91E7EA34F8B87847E82734E9645105800C23966C187D3DB51AE0')
