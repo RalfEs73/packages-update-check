@@ -1,7 +1,7 @@
 New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $package = @()
-$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '1CFB095E603BBAF8ABBDAE52E3B74832E1389F552005AE657B2E87282574451A')
+$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'E06678056FBDACDCBDD0B6DC01B2593CC24AE42DCCDE42C20AACEDF993D5F3B0')
 $package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', 'D6453165B2EEDE9ABA21B5D27979FCF0C0A79B9E6085C3A858DC3FB8523166B6')
 $package += ,@('backupstartmenulayout', 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip', '6455092ABCABBA7E46BC933C1909ADBFAEDD57096D0ED0D6ED38439DAF396C81')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
