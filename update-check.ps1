@@ -1,6 +1,7 @@
 New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $package = @()
+$package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '9DBB71CB9C4BCAD710768DB6493317CCF31702A6023AED8700209667F0FAE547')
 $package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '4E77CA8AEDBCB610E2C87CA1801D9FFC399E4A97137A7F9AA65791E9D1719C52')
 $package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '51BE1A3B8A4C149C780696172420D5EDADE04DC8E19FA179FD56C35E76F02024')
 $package += ,@('backupstartmenulayout', 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip', '6455092ABCABBA7E46BC933C1909ADBFAEDD57096D0ED0D6ED38439DAF396C81')
