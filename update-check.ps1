@@ -2,8 +2,8 @@ New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '9DBB71CB9C4BCAD710768DB6493317CCF31702A6023AED8700209667F0FAE547')
-$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '68D547D540C1FC52B0E4CE3BDF8E194E4DE6EFC1FD0227F1D385311DEE8FE1E9')
-$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', 'A0BFDDF134B3737DB0B6F20D1BB6C8A31835755585E26FE929802E5C648998B3')
+$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '6C1336C31FCCE39F51AC2C9E64936BE8A621027119B0F0D997EBDEA29462F09D')
+$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '2FBE2A338A3CFE09320E70077B94292678216A7339D36BBBD6AF7F54D5D605E0')
 $package += ,@('backupstartmenulayout', 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip', 'AC79D94460B189784B3ACDD30BCCC1FBC3CF49CE0942426FCB263F5E5957C6A4')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe', 'C4A93D1AFE0DE3A5713275994830DF88757AB5E7C7F5F4834D49735D4FA380F9')
@@ -18,7 +18,10 @@ foreach($array in $package)
     $a = $array[0]
 	$dest = "D:\Temp\Cache\$a.dump"
     Write-host "Check:" $array[0] -NoNewline
-	Start-BitsTransfer -Source $array[1] -Destination $dest
+	# Start-BitsTransfer -Source $array[1] -Destination $dest
+	$WebClient = New-Object System.Net.WebClient
+	$WebClient.DownloadFile($array[1],$dest);  
+	
 	if((Get-FileHash $dest).hash  -ne ($array[2]))
 		{
         $hash = (Get-FileHash $dest).hash
