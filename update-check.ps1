@@ -23,7 +23,7 @@ foreach($array in $package)
 	$WebClient = New-Object System.Net.WebClient
 	$WebClient.DownloadFile($array[1],$dest);  
 	
-	if((Get-FileHash $dest).hash  -ne ($array[2]))
+	if((Get-FileHash $dest).hash -ne ($array[2]))
 		{
         $hash = (Get-FileHash $dest).hash
 		Write-host " - " -NoNewline
