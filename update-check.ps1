@@ -5,6 +5,7 @@ $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup
 $package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', '5220374D9F557DB0B291DC359D077FCBE0CD479723065307DFAB2A08DD865BBD')
 $package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '5D25646EBB0B7B54458EA286502A35C17BAC5A205FD201C437E0D796A02EFA83')
 $package += ,@('backupstartmenulayout', 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip', 'AC79D94460B189784B3ACDD30BCCC1FBC3CF49CE0942426FCB263F5E5957C6A4')
+$package += ,@('chia-network', 'https://download.chia.net/latest/Setup-Win64.exe', '38dbf88e72716d9b1ff27469c39ce7b98f8135f558092414981fcde987fa6723')
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe', 'BA12CB9CE33D9939F21AF0FD6B8D46E84D46D99B2D39171031132753B5A7FFEE')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
