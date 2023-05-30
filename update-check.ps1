@@ -19,7 +19,8 @@ foreach($array in $package)
     $a = $array[0]
 	$dest = "D:\Temp\Cache\$a.dump"
     Write-host "Check:" $array[0] -NoNewline
-	## Start-BitsTransfer -Source $array[1] -Destination $dest
+	
+	# Start-BitsTransfer -Source $array[1] -Destination $dest
 	# $WebClient = New-Object System.Net.WebClient
 	# $WebClient.DownloadFile($array[1],$dest);  
 	
