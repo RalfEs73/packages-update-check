@@ -1,4 +1,4 @@
-New-Item -Path "D:\Temp\Cache" -ItemType directory -Force | Out-Null
+New-Item -Path "C:\Temp\" -ItemType directory -Force | Out-Null
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '9DBB71CB9C4BCAD710768DB6493317CCF31702A6023AED8700209667F0FAE547')
@@ -17,7 +17,7 @@ $package += ,@('tiptoimanager', 'https://cdn.ravensburger.de/db/Installer/tiptoi
 foreach($array in $package)
     {
     $a = $array[0]
-	$dest = "D:\Temp\Cache\$a.dump"
+	$dest = "C:\Temp\$a.dump"
     Write-host "Check:" $array[0] -NoNewline
 	
 	# Start-BitsTransfer -Source $array[1] -Destination $dest
