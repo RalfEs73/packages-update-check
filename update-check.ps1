@@ -2,8 +2,8 @@ New-Item -Path "C:\Temp\" -ItemType directory -Force | Out-Null
 
 $package = @()
 $package += ,@('amazongames', 'https://download.amazongames.com/AmazonGamesSetup.exe', '9DBB71CB9C4BCAD710768DB6493317CCF31702A6023AED8700209667F0FAE547')
-$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '112655A2FB2CB671750E0FF0F9E74C269E72DCF19011D65D85AD2A7088645139')
-$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'B3B386B16AB61B4842AB8B730E9D4D98C87195D9BC75348D4C3865FD9E3784AE')
+$package += ,@('anystream.32', 'https://www.redfox.bz/download/SetupAnyStream32.exe', '25A5B1F4761E6DE28896D1A9ABAB397FC93EA22F9EF8510A69D2B2AD229F936C')
+$package += ,@('anystream.64', 'https://www.redfox.bz/download/SetupAnyStream64.exe', 'C45A82B32FA6079E9589BB8CF62F2726FA2084CDF8B7828C9540E69FDDA659E1')
 $package += ,@('backupstartmenulayout', 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip', 'CF79FE0E05003687427845B502E29B80E57FB2FD0AF350D90D047F5432B51997')
 $package += ,@('chia-network', 'https://download.chia.net/latest/Setup-Win64.exe', '77EEB501C4B97ACDF45B256DD826136884EF3DA67BA79A70C48C40A9BD28E597')
 $package += ,@('droidcam', 'https://files.dev47apps.net/win/DroidCam.Setup.6.4.3.exe', '8E71EAB54503389698604D796C18A3ED9B1B7A67817A7FAD74E86FB1B52EE500')
