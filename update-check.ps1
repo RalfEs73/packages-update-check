@@ -10,7 +10,7 @@ $package += ,@('droidcam', 'https://files.dev47apps.net/win/DroidCam.Setup.6.4.3
 $package += ,@('encrypto', 'https://dl.devmate.com/com.macpaw.win.Encrypto/EncryptoforWin.exe', '841C55824F88B7FD6D1474ADB8E4F7AA854677DFAF1CE4542768DD99EB73AB59')
 $package += ,@('hasleobackupsuite', 'https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe', 'FEFBF4336F5BBEA644735EE9B3C1E40E7F7BD9F13DBA00229032D10085BA957C')
 $package += ,@('ledger-live', 'https://download.live.ledger.com/latest/win', '5A64BFED7B3DF0F58FEB2C6A549C174D8C1B1C327E9B47F48F400E83F4E3B329')
-$package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe', '725BE19D8ACB028FACF70632AF9614D90F717390C936549956B52401C887E634')
+$package += ,@('powerautomatedesktop', 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe', 'EF1CC5296AE2757C49DD052D9CCC4D7167764A0D0DD38B3BBEDE184D05B6CC53')
 $package += ,@('thumbico', 'https://download.aurelitec.com/thumbico/windows/thumbico-install.exe', '4B7BE6842F95A3252633B30B2AFD292A25D5794FF7C7C1B03B382474B5A3D167')
 $package += ,@('tiptoimanager', 'https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe', '529E1B61DC60121FA0A72DD4CDDB4129F8DEF09ECBACE9F665BA2B5FB7953DC7')
 
